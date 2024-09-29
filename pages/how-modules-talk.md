@@ -103,7 +103,11 @@ TODO: Add examples of different ops, lsgs and fcts
 When the car wakes up from sleep, or an ASG wants to initiate a channel to an FSG the ASG sends a command to get the BAP configuration from the FSG.  
 The FSG then responds with a short message containing the BAP version in use as well as some information about the logical device provided on this channel.
 
-TODO: Add example of initialization talk
+![Example of BAP channel initialization](/images/bap_config_handshake.png)
+Image source: my own WIP BAP analyzer
+
+The ASG sends a BAP message with the GET operation on the BAP Config function, there is no payload.
+The FSG then responds with a RESET operation for the BAP Config, containing metadata about the BAP version and settings the FSG talks for this channel.
 
 ### Further reading
 
