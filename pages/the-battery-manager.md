@@ -51,4 +51,16 @@ Explain and provide examples of how to read the BCP array and how to modify a BC
 
 ### Starting climatisation
 
+TODO: Proper explaining and examples
+
+See examples/start_climate.csv
+
+Contains a GVRET dump of CAN messages required to wake up the car and start climatisation
+
 ### Stopping climatisation
+
+TODO: Proper explaining and examples
+
+See examples/stop_climate.csv
+
+Contains a GVRET dump of CAN messages required to stop climatisation

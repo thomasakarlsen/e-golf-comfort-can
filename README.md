@@ -12,6 +12,16 @@ On MQB platform cars the OBD port is not directly connected to any of the canbus
 
 Additionally, by looking at the wiring schematics the orignial OCU is only connected to the comfort canbus so implementing all the features of it should be possible by only connecting to the comfort canbus.
 
+## Examples
+
+In the examples folder you can find trace files that contain a set of CAN Frames you can send on the e-Golfs comfort can to perform an action.
+
+TODO: Cleanup examples, some messages (like updating the global BCP profile) are not required
+
+**Start climate**: Wakes the car up from sleep and starts climatisation with the settings that are stored in the car
+
+**Stop climate**: Stops climatisation
+
 ## DONE
 
 - [Connecting and reading messages from the comfort canbus](pages/the-comfort-canbus.md)
